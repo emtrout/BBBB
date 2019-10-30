@@ -23,7 +23,7 @@ function makeUpgrades(game) {
 
 function renderGame(game) {
     //Renders the DOM with the game state info.
-    $("lines");
+    let lines = document.getElementbyId("line");
 }
 
 function updateGame(game) {
